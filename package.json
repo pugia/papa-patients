@@ -1,0 +1,16 @@
+{
+  "name": "patients-database",
+  "description": "Gestione pazienti per papà",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "basic-auth": "1.x",
+    "body-parser": "1.12.2",
+    "express": "4.x",
+    "mongoose": "4.0.x"
+  },
+  "main": "server.js",
+  "scripts": {
+    "prestart": "bower update"
+  }
+}
